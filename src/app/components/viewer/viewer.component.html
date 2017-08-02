@@ -1,0 +1,8 @@
+<div class="input" id="input">
+  <textarea ngDefaultControl [(ngModel)]="inputHTML" (ngModelChange)="reformatText()">
+  {{inputHTML}}
+</textarea>
+</div>
+
+<div class="output" [innerHTML] = "outputHTML" class="output" ngDefaultControl [(ngModel)]="outputHTML">
+</div>

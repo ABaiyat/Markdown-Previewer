@@ -1,0 +1,39 @@
+textarea {
+  display:inline;
+  resize: vertical;
+  width:98%;
+  height:400px;
+  padding:1%;
+  outline: none;
+  rows: '3';
+
+}
+
+.input {
+  display:inline-block;
+  float:left;
+  width:48%;
+  padding:1%;
+
+}
+
+.output {
+  display:inline-block;
+  width:48%;
+  border-width: 1px;
+  padding:1%;
+  margin:0;
+}
+
+@media screen and (max-width: 800px) {
+  .input {
+    width:98%;
+  }
+  .output {
+    width:98%;
+  }
+}
+
+img {
+  width:200px !important;
+}
